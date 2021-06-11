@@ -1,16 +1,18 @@
+import React from 'react';
+
 import Head from 'next/head';
 
-export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>Login</title>
-        <link rel="icon" href="/fav.webp" />
-      </Head>
+const Home: React.FC = () => (
+  <div>
+    <Head>
+      <title>Login</title>
+      <link rel="icon" href="/fav.webp" />
+    </Head>
 
-      <main>
-        <h1>Bem-vindo!</h1>
-      </main>
-    </div>
-  );
-}
+    <main>
+      <h1>Bem-vindo!</h1>
+    </main>
+  </div>
+);
+
+export default Home;

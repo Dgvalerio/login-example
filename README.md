@@ -19,11 +19,6 @@ yarn add typescript @types/react @types/node -D
 ren pages\_app.js _app.tsx
 ren pages\index.js index.tsx
 
-
-yarn add styled-components reactotron-react-js
-mkdir src\config
-echo // > src\config\ReactotronConfig.ts
-
 yarn add eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-import-helpers @types/styled-components -D
 echo // > .eslintignore
 echo // > prettier.config.js
@@ -32,6 +27,11 @@ yarn eslint --init
 
 del package-lock.json
 yarn
+
+
+yarn add styled-components reactotron-react-js
+mkdir src\config
+echo // > src\config\ReactotronConfig.ts
 
 echo // > babel.config.js
 echo // > pages\_document.tsx
