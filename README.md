@@ -28,7 +28,6 @@ yarn eslint --init
 del package-lock.json
 yarn
 
-
 yarn add styled-components reactotron-react-js
 mkdir src\config
 echo // > src\config\ReactotronConfig.ts
